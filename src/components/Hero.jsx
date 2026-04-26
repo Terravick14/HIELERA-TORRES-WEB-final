@@ -32,22 +32,22 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="hero" ref={containerRef} className="relative min-h-screen flex flex-col items-center justify-end pt-32 pb-2 md:pb-4 px-4 overflow-hidden">
+    <section id="hero" ref={containerRef} className="relative w-full min-h-[90svh] lg:min-h-0 lg:aspect-video flex flex-col items-center justify-end pt-32 pb-4 md:pb-8 px-4 overflow-hidden">
       
-      {/* Full Visible Video Background without cropping */}
+      {/* Responsive Video Background */}
       <div className="absolute inset-0 z-0 bg-[#0b4c86]">
         <video 
           autoPlay 
           loop 
           muted 
           playsInline
-          className="absolute top-0 left-0 w-full h-full object-contain"
+          className="absolute top-0 left-0 w-full h-full object-cover object-top lg:object-center"
         >
           <source src="https://res.cloudinary.com/dddjqjtbk/video/upload/v1777233909/0426_ee2yiz.mp4" type="video/mp4" />
         </video>
         
-        {/* Dark Overlay for Text Readability */}
-        <div className="absolute inset-0 bg-black/40"></div>
+        {/* Gradient Overlay to blend the video into the blue background perfectly on mobile */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0b4c86] via-black/40 to-black/20 lg:bg-black/30 lg:bg-none"></div>
       </div>
 
       {/* Background Gradients */}
