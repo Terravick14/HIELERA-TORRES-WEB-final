@@ -59,12 +59,13 @@ export default function Hero() {
       <div className="text-center max-w-4xl mx-auto z-10 w-full px-4 mb-4">
         <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 shadow-2xl inline-block w-full">
           <h1 ref={titleRef} className="flex flex-col items-center text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight mb-4 text-center">
-            <span className="text-white drop-shadow-lg">Hielo de excelencia con</span>
-            <span className="font-serif italic text-[#4ade80] font-bold mt-2 text-2xl md:text-3xl lg:text-4xl drop-shadow-md">tecnología Inverter súper ahorradora.</span>
+            <span className="text-white drop-shadow-lg">Hielo premium y renta de freezers con</span>
+            <span className="font-serif italic text-[#38bdf8] font-bold mt-2 text-2xl md:text-3xl lg:text-4xl drop-shadow-md">tecnología Inverter súper ahorradora.</span>
           </h1>
 
           <p className="text-white font-medium max-w-xl mx-auto text-center mb-6 text-base md:text-lg leading-relaxed drop-shadow-md">
-            <strong className="text-[#4ade80] font-bold tracking-wide">1 freezer Inverter equivale al rendimiento de 3 tradicionales.</strong>
+            <strong className="text-[#38bdf8] font-bold tracking-wide">Equipa tu negocio y reduce tu recibo de luz.</strong><br className="hidden md:block"/>
+            1 freezer Inverter equivale al rendimiento de 3 tradicionales.
           </p>
 
           {/* Badges */}
