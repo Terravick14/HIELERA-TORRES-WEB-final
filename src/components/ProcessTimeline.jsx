@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { RippleCircles } from './ui/RippleCircles';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -66,11 +65,6 @@ export default function ProcessTimeline() {
 
   return (
     <section className="py-24 px-4 bg-gray-50 relative overflow-hidden">
-      {/* Background Ripples */}
-      <div className="absolute top-[20%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20 pointer-events-none z-0 scale-[2.5] md:scale-[3.5]">
-        <RippleCircles />
-      </div>
-
       <div className="max-w-4xl mx-auto relative z-10" ref={containerRef}>
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-medium text-dark mb-4">¿Cómo funciona?</h2>
