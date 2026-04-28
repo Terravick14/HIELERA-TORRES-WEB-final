@@ -43,7 +43,7 @@ export default function Hero() {
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover object-top lg:object-center"
         >
-          <source src="https://res.cloudinary.com/dddjqjtbk/video/upload/v1777233909/0426_ee2yiz.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dddjqjtbk/video/upload/v1777395122/0427_ri7om7.mp4" type="video/mp4" />
         </video>
         
         {/* Gradient Overlay to blend the video into the blue background perfectly on mobile */}
@@ -59,8 +59,8 @@ export default function Hero() {
       <div className="text-center max-w-4xl mx-auto z-10 w-full px-4 mb-4">
         <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 shadow-2xl inline-block w-full">
           <h1 ref={titleRef} className="flex flex-col items-center text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight mb-4 text-center">
-            <span className="text-white drop-shadow-lg">Hielo premium y renta de freezers con</span>
-            <span className="font-serif italic text-[#38bdf8] font-bold mt-2 text-2xl md:text-3xl lg:text-4xl drop-shadow-md">tecnología Inverter súper ahorradora.</span>
+            <span className="text-white drop-shadow-lg">Hielo Premium.</span>
+            <span className="font-serif italic text-[#38bdf8] font-bold mt-2 text-2xl md:text-3xl lg:text-4xl drop-shadow-md">Congeladores con tecnología Inverter súper ahorradora.</span>
           </h1>
 
           <p className="text-white font-medium max-w-xl mx-auto text-center mb-6 text-base md:text-lg leading-relaxed drop-shadow-md">
