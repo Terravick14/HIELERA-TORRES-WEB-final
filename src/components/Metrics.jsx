@@ -5,10 +5,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const metrics = [
-  { value: 500, suffix: '+', label: 'Clientes activos' },
+  { value: 300, suffix: '+', label: 'Clientes' },
   { value: 10, suffix: ' tons', label: 'Producción diaria' },
   { value: 98, suffix: '%', label: 'Entregas a tiempo' },
-  { value: 5, suffix: ' años', label: 'Operando localmente' }
+  { value: 7, suffix: ' años', label: 'Operando localmente' }
 ];
 
 export default function Metrics() {
