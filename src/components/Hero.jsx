@@ -43,7 +43,7 @@ export default function Hero() {
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover object-center"
         >
-          <source src="https://res.cloudinary.com/dddjqjtbk/video/upload/v1777233909/0426_ee2yiz.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dddjqjtbk/video/upload/v1777395122/0427_ri7om7.mp4" type="video/mp4" />
         </video>
         
         {/* Gradient Overlay to blend the video into the blue background perfectly */}

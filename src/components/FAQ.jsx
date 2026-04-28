@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const faqs = [
   {
     q: "¿Cuál es el pedido mínimo?",
-    a: "Para compras de menudeo no hay pedido mínimo si recoges en sucursal. Para entregas a domicilio, requerimos un mínimo de 5 bolsas. En mayoreo y negocios el mínimo varía según la zona."
+    a: "Mínimo 2 bolsas de 15 kilos."
   },
   {
     q: "¿Hacen entregas a domicilio?",
