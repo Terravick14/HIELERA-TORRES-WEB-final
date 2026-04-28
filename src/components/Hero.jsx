@@ -32,31 +32,33 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="hero" ref={containerRef} className="relative w-full min-h-[90svh] lg:min-h-0 lg:aspect-video flex flex-col items-center justify-end pt-32 pb-4 md:pb-8 px-4 overflow-hidden">
-      
+    <section id="hero" ref={containerRef} className="relative w-full flex flex-col overflow-hidden bg-[#0b4c86]">
       {/* Responsive Video Background */}
-      <div className="absolute inset-0 z-0 bg-[#0b4c86]">
+      {/* Takes up most of the viewport height, acts as a normal block in the flex column */}
+      <div className="relative w-full h-[60svh] lg:h-[85svh] z-0 shrink-0">
         <video 
           autoPlay 
           loop 
           muted 
           playsInline
-          className="absolute top-0 left-0 w-full h-full object-cover object-top lg:object-center"
+          className="absolute top-0 left-0 w-full h-full object-cover object-center"
         >
-          <source src="https://res.cloudinary.com/dddjqjtbk/video/upload/v1777395122/0427_ri7om7.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dddjqjtbk/video/upload/v1777233909/0426_ee2yiz.mp4" type="video/mp4" />
         </video>
         
-        {/* Gradient Overlay to blend the video into the blue background perfectly on mobile */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0b4c86] via-black/40 to-black/20 lg:bg-black/30 lg:bg-none"></div>
+        {/* Gradient Overlay to blend the video into the blue background perfectly */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0b4c86] via-transparent to-transparent"></div>
       </div>
 
       {/* Background Gradients */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
-        <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] rounded-full bg-blue-100 blur-[120px] opacity-60 pointer-events-none"></div>
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-accent blur-[150px] opacity-10 pointer-events-none"></div>
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
+        <div className="absolute top-[60%] left-[-10%] w-[50%] h-[50%] rounded-full bg-blue-100 blur-[120px] opacity-60"></div>
+        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-accent blur-[150px] opacity-10"></div>
       </div>
 
-      <div className="text-center max-w-4xl mx-auto z-10 w-full px-4 mb-4 mt-[30vh] lg:mt-0">
+      {/* Text Container */}
+      {/* Flows naturally below video on all screens */}
+      <div className="relative z-10 w-full px-4 pt-4 pb-12 md:pb-16 text-center max-w-4xl mx-auto">
         <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 shadow-2xl inline-block w-full">
           <h1 ref={titleRef} className="flex flex-col items-center text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight mb-4 text-center">
             <span className="text-white drop-shadow-lg">Hielo Premium.</span>
