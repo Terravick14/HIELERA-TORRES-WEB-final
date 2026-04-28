@@ -18,7 +18,7 @@ export default function Location() {
             <div className="space-y-6 mb-10">
               <div>
                 <h4 className="font-mono text-sm text-gray-400 uppercase tracking-wider mb-1">Dirección</h4>
-                <p className="text-dark font-medium">Francisco I. Madero 19, Centro Comercial<br/>85900 Huatabampo, Son.</p>
+                <p className="text-dark font-medium">Francisco I. Madero #25, Centro Comercial<br/>85900 Huatabampo, Son.</p>
               </div>
               <div>
                 <h4 className="font-mono text-sm text-gray-400 uppercase tracking-wider mb-1">Contacto</h4>
@@ -26,7 +26,7 @@ export default function Location() {
               </div>
               <div>
                 <h4 className="font-mono text-sm text-gray-400 uppercase tracking-wider mb-1">Horario</h4>
-                <p className="text-dark font-medium">Lunes a Sábado: 6:00 AM - 8:00 PM<br/>Domingo: 7:00 AM - 2:00 PM</p>
+                <p className="text-dark font-medium">Lunes a Sábado: 9:30 AM - 6:00 PM<br/>Domingo: 9:30 AM - 4:00 PM</p>
               </div>
             </div>
 
@@ -45,7 +45,7 @@ export default function Location() {
             <div className="absolute inset-0 bg-blue-900/10 mix-blend-multiply pointer-events-none group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
             
             <iframe 
-              src="https://maps.google.com/maps?q=Francisco+I.+Madero+19,+Centro+Comercial,+85900+Huatabampo,+Son.&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+              src="https://maps.google.com/maps?q=Francisco+I.+Madero+%2325,+Centro+Comercial,+85900+Huatabampo,+Son.&t=&z=15&ie=UTF8&iwloc=&output=embed" 
               className="absolute inset-0 w-full h-full border-0 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
               allowFullScreen="" 
               loading="lazy" 
