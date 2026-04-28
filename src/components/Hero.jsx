@@ -56,7 +56,7 @@ export default function Hero() {
         <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-accent blur-[150px] opacity-10 pointer-events-none"></div>
       </div>
 
-      <div className="text-center max-w-4xl mx-auto z-10 w-full px-4 mb-4">
+      <div className="text-center max-w-4xl mx-auto z-10 w-full px-4 mb-4 mt-[30vh] lg:mt-0">
         <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 shadow-2xl inline-block w-full">
           <h1 ref={titleRef} className="flex flex-col items-center text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight mb-4 text-center">
             <span className="text-white drop-shadow-lg">Hielo Premium.</span>
